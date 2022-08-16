@@ -12,7 +12,7 @@ app.get('/api/v1/bootcamps', (req, res) => {
 
 app.get('/api/v1/bootcamps/:id', (req, res) => {
     res.status(200).
-    json({sucess:true, msg: `get bootcamp id ${req.params.id}`}); 
+    json({sucess:true, msg: `show bootcamp id ${req.params.id}`}); 
 
 });
 
