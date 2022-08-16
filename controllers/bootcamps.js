@@ -17,7 +17,7 @@ exports.getBootcamps = async (req, res, next) => {
 }
 
 // @desc  Get a bootcamp   
-// @route GET /api/v1/bootcamps/:id
+// @route GET /api/v1/bootcamps/:i
 // @access Public
 exports.getBootcamp = async (req, res, next) => {
     try {
