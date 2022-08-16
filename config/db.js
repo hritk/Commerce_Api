@@ -8,8 +8,6 @@ const connectDB = async () => {
         // useFindandModify : false,
         useUnifiedTopology : true
          
-
-        
     });
 
 

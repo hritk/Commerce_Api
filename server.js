@@ -24,7 +24,6 @@ if(process.env.NODE_ENV === 'development'){
 
 app.use('/api/v1/bootcamps', bootcamps);
 
-
 const PORT = process.env.PORT || 5000;
 
 const server = app.listen(PORT, 
